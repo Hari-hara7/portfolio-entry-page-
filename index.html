@@ -9,7 +9,7 @@
     <link rel="icon" href="Designer - 2024-06-24T113344.440.jpeg" type="image/x-icon" style="filter: grayscale(100%);">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <div class="opening-page">
@@ -21,5 +21,16 @@
 
     <script src="script.js"></script>
 </body>
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }, function(err) {
+          console.log('Service Worker registration failed:', err);
+        });
+      });
+    }
+  </script>
+  
 </html>
-
