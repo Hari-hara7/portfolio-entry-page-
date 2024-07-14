@@ -9,7 +9,12 @@ body, html {
     background-color: #000; /* Background color can be customized */
     font-family: 'Poppins', sans-serif;
 }
-
+.rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .opening-page {
     position: relative; /* Ensure positioning context for pseudo-elements */
     display: flex;
