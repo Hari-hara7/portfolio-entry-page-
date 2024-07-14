@@ -74,7 +74,7 @@ body, html {
     font-weight: bold;
     opacity: 0;
     animation: fadeInUp 3s ease-in-out 1s forwards;
-    background: linear-gradient(45deg, #f7f7f7, #da0404, #06c106);
+    background: linear-gradient(45deg, #00ef14, #04da1d, #06c106);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
