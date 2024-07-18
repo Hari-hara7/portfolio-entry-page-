@@ -6,9 +6,13 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000; /* Background color can be customized */
+    background-image: url('25336.jpg'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     font-family: 'Poppins', sans-serif;
 }
+
 .rubik-glitch-regular {
     font-family: "Rubik Glitch", system-ui;
     font-weight: 400;
@@ -62,8 +66,8 @@ body, html {
 }
 
 .animated-gif {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 90%;
     height: auto;
     animation: zoomIn 3s ease-in-out;
 }
@@ -74,7 +78,7 @@ body, html {
     font-weight: bold;
     opacity: 0;
     animation: fadeInUp 3s ease-in-out 1s forwards;
-    background: linear-gradient(45deg, #00ef14, #04da1d, #06c106);
+    background: linear-gradient(45deg, #1beb00, #00e339, #06c106);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
